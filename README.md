@@ -12,19 +12,19 @@ A simple Python command-line application that fetches and displays a random joke
 ## Requirements
 
 * Python 3.7+
-* [`requests`](https://pypi.org/project/requests/)
+* `requests``(https://pypi.org/project/requests/)
 
 ## Installation
 
 1. **Clone or download the repository**
 
-2. **Install dependencies**
+21. **Install dependencies**
 
    ```bash
-   pip install requests
+   pip install -r requirements.txt
    ```
 
-3. **Run the script**
+31. **Run the script**
 
    ```bash
    python random_joke_quote_generator.py
@@ -56,13 +56,14 @@ Because they make up everything.
 
 ## APIs Used
 
-* [Official Joke API](https://official-joke-api.appspot.com/)
+
+ [Official Joke API](https://official-joke-api.appspot.com/)
 * [Quotable API](https://api.quotable.io/)
 
 ## Customization
 
 Feel free to extend the project by:
-
 * Adding more APIs (e.g., for facts, riddles, or advice)
 * Building a GUI version with Tkinter
-* Saving favourite jokes/quotes to a file
+
+ Saving favourite jokes/quotes to a file
